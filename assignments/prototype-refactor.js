@@ -8,7 +8,7 @@ Prototype Refactor
 
 */
 
-
+(function() {
 // TASK 1
 
 // - Build a Person Constructor that takes name and age.
@@ -345,4 +345,4 @@ const archer = new Humanoid({
 // console.log(archer.greet()); // Lilith offers a greeting in Elvish.
 // console.log(mage.takeDamage()); // Bruce took damage.
 // console.log(swordsman.destroy()); // Sir Mustachio was removed from the game.
-  
+})();  
